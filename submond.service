@@ -1,0 +1,11 @@
+[Unit]
+Description=Example systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /opt/subscriber_stat/bin/submon.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
