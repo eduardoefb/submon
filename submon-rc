@@ -1,0 +1,11 @@
+export HOME_DIR="/opt/submon"
+export CHAIN_PREFIX="SUB_"
+export MEAS_DIR="${HOME_DIR}/data/"
+export MYSQL_IP="10.2.1.135"
+export MYSQL_PORT="3306"
+export MYSQL_USER="agw01"
+export MYSQL_PASSWD="submon123"
+export MYSQL_DB="orc8r"
+export MYSQL_TABLE="subtraffic"
+export PENDING_FILE="${MEAS_DIR}/pending"
+export INTERVAL=20

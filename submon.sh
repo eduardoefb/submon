@@ -77,7 +77,7 @@ function collect_pending(){
    done
 }
 
-
+source /opt/submon/submon-rc
 mkdir -p ${MEAS_DIR} 2>/dev/null
 touch ${PENDING_FILE}
 while :; do      
